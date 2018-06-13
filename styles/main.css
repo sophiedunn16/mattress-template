@@ -4,3 +4,17 @@
   box-sizing:border-box;
   border: 1px solid black;
 }
+
+/*---Generic Styling---*/
+
+
+
+
+/*---Classes---*/
+
+.header {
+  background-image: url("../assets/leaves.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+}
