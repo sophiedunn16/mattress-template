@@ -7,14 +7,35 @@
 
 /*---Generic Styling---*/
 
-
-
-
-/*---Classes---*/
-
-.header {
+header {
   background-image: url("../assets/leaves.jpg");
   background-position: center;
   background-size: cover;
   min-height: 80vh;
+}
+
+h1 {
+  color: white;
+  font-size: 6rem;
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+/*---Classes---*/
+
+.image {
+  background-position: center;
+  background-size: cover;
+  min-height: 10vh;
+}
+
+.bed-image{
+  background-image: url("../assets/bed.jpg");
+}
+
+.pencil-image {
+  background-image: url("../assets/pencil.jpg");
 }
