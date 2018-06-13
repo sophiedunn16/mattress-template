@@ -30,21 +30,24 @@ h2 {
 }
 
 h3 {
-  color: #192B37;
-  font-size: 3.5rem;
-  margin-bottom: 2%;
+  font-size: 2.5rem;
+  margin-bottom: 3%;
   font-weight: 800;
   color: #193A50;
 }
 
 h4 {
-
+  font-size: 4rem;
+  margin-top: 2%;
+  font-weight: 800;
+  color: #193A50;
 }
 
 p {
   font-size: 1.4rem;
   font-weight: 300;
   color: #193A50;
+  line-height: 2rem;
 }
 
 blockquote {
@@ -68,7 +71,10 @@ footer {
 }
 
 .bannerad {
+  background-position: center;
+  background-size: cover;
   background-color: #ECB300;
+  text-align:center;
   min-height: 60vh;
 }
 
@@ -123,6 +129,10 @@ footer {
   font-family: 'Work Sans', sans-serif;
   text-align: right;
   margin
+}
+
+.bannerad-h3 {
+  font-size: 1.8rem;
 }
 
 .footer-h3 {
