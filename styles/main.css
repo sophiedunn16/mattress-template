@@ -1,17 +1,17 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   border: 1px solid black;
 }
 
 /*---Generic Styling---*/
 
 header {
-  background-image: url("../assets/leaves.jpg");
   background-position: center;
   background-size: cover;
   min-height: 80vh;
+  text-align: center;
 }
 
 h1 {
@@ -24,18 +24,77 @@ h2 {
   font-size: 3rem;
 }
 
-/*---Classes---*/
-
-.image {
-  background-position: center;
-  background-size: cover;
-  min-height: 10vh;
+h3 {
+  color: #192B37;
+  font-size: 3.5rem;
+  margin-bottom: 2%;
 }
 
-.bed-image{
+p {
+  c
+}
+
+footer {
+  background-color: #192B37;
+  min-height: 60vh;
+  color: white;
+}
+
+
+/*---Classes---*/
+
+.benefits {
+
+}
+
+.bannerad {
+  background-color: #ECB300;
+  min-height: 60vh;
+}
+
+.blockquote {
+  min-height: 40vh;
+}
+
+/*---Image Classes ---*/
+
+.img-position {
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
+  background-color: #E9E9E9;
+}
+
+.leaves-img {
+  background-image: url("../assets/leaves.jpg");
+}
+
+.bed-img {
   background-image: url("../assets/bed.jpg");
 }
 
-.pencil-image {
+.pencil-img {
   background-image: url("../assets/pencil.jpg");
+}
+
+.dog-img {
+  background-image: url("../assets/dog.jpg");
+}
+
+/*---Type Classes ---*/
+
+/* Text highlighted in yellow */
+
+.text-highlight-yellow {
+  color: #ECB300;
+}
+
+/* Type highlighted in white */
+
+.text-highlight-white {
+  color: #ffffff;
+}
+
+.text-padding {
+  padding: 5%
 }
