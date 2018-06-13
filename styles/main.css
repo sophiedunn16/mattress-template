@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 /*---Generic Styling---*/
@@ -14,28 +13,49 @@ header {
   text-align: center;
 }
 
+h1, h2, h3, h4, p, blockquote{
+  font-family: 'Work Sans', sans-serif;
+}
+
 h1 {
+  font-size: 5rem;
+  font-weight: 800;
   color: white;
-  font-size: 6rem;
 }
 
 h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
   color: white;
-  font-size: 3rem;
 }
 
 h3 {
   color: #192B37;
   font-size: 3.5rem;
   margin-bottom: 2%;
+  font-weight: 800;
+  color: #193A50;
+}
+
+h4 {
+
 }
 
 p {
-  c
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #193A50;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #193A50;
 }
 
 footer {
-  background-color: #192B37;
+  background-color: #193A50;
   min-height: 60vh;
   color: white;
 }
@@ -81,20 +101,38 @@ footer {
   background-image: url("../assets/dog.jpg");
 }
 
+
 /*---Type Classes ---*/
 
-/* Text highlighted in yellow */
 
-.text-highlight-yellow {
+.text-highlight-yellow { /* Text highlighted in yellow */
   color: #ECB300;
 }
 
-/* Type highlighted in white */
-
-.text-highlight-white {
+.text-highlight-white { /* Type highlighted in white */
   color: #ffffff;
 }
 
 .text-padding {
   padding: 5%
+}
+
+.quotename {
+  color: grey;
+  font-size: .9rem;
+  font-family: 'Work Sans', sans-serif;
+  text-align: right;
+  margin
+}
+
+.footer-h3 {
+  color: white;
+}
+
+.text-color-white {
+  color: white;
+}
+
+footer .text-highlight-yellow {
+  display: block;
 }
