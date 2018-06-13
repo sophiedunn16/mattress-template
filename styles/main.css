@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 /*---Generic Styling---*/
 
 header {
@@ -13,7 +14,7 @@ header {
   text-align: center;
 }
 
-h1, h2, h3, h4, p, blockquote{
+h1, h2, h3, h4, p, blockquote, input, textarea, button {
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -61,8 +62,38 @@ footer {
   background-color: #193A50;
   min-height: 60vh;
   color: white;
+  padding: 5%;
 }
 
+footer form * {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.4rem;
+}
+
+footer button {
+  background-color: #ECB300;
+  border:1px solid #ECB300;
+  color: white;
+  transition: 0.5s;
+}
+
+footer button:hover {
+  background-color: #193A50;
+  border: 1px solid #ECB300;
+  color: #ECB300;
+}
+
+footer textarea {
+  min-height: 200px;
+}
+
+input {
+
+}
 
 /*---Classes---*/
 
@@ -133,10 +164,13 @@ footer {
 
 .bannerad-h3 {
   font-size: 1.8rem;
+  font-weight: 300;
 }
 
 .footer-h3 {
   color: white;
+  font-size: 3rem;
+  margin-top: 1%;
 }
 
 .text-color-white {
